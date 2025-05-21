@@ -22,7 +22,7 @@ const App = () => {
   const [activeProject, setActiveProject] = useState("Inbox");
   const [modalVisible, setModalVisible] = useState(false);
 
-  // Загрузка задач и активного проекта из localStorage
+ 
   useEffect(() => {
     try {
       if (typeof localStorage === "undefined") {
@@ -51,7 +51,7 @@ const App = () => {
     }
   }, []);
 
-  // Сохранение задач в localStorage
+
   useEffect(() => {
     try {
       if (typeof localStorage === "undefined") {
