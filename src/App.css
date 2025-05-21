@@ -1,0 +1,17 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.task{
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 500px;
+  min-height: 250px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 25px rgb(186, 186, 186, .25);
+}
